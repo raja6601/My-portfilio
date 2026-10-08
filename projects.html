@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Raja Mudassir</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Raja<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">Hire Me</a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="nav-mobile" id="navMobile">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <i class="ri-arrow-right-s-line"></i>
+      <span>Projects</span>
+    </div>
+    <h1 class="page-hero-title">My <span class="teal">Projects</span></h1>
+    <p class="page-hero-subtitle">200+ projects delivered — here are some of my finest works</p>
+  </div>
+</div>
+
+<!-- PROJECTS SECTION -->
+<section class="section">
+  <div class="container">
+    <!-- Filter Buttons -->
+    <div class="projects-filter reveal">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+      <button class="filter-btn" data-filter="video">Video</button>
+      <button class="filter-btn" data-filter="animation">Animation</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="web">Web Design</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid stagger">
+
+      <!-- Project 1 -->
+      <div class="project-card" data-category="ui">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0d2137,#0a3348);">
+          <i class="ri-bank-card-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Live Demo"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">UI/UX Design</div>
+          <h3 class="project-title">Fintech Dashboard App</h3>
+          <p class="project-desc">A comprehensive financial management platform with real-time data visualization, portfolio tracking, and intuitive navigation.</p>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" data-category="video">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a1040,#2d1b5e);">
+          <i class="ri-film-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Watch Video"><i class="ri-play-circle-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Video Editing</div>
+          <h3 class="project-title">Brand Launch Campaign</h3>
+          <p class="project-desc">Cinematic product launch video for a luxury fashion brand with dynamic motion graphics and premium color grading.</p>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card" data-category="ui">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0a2e1e,#0d3d28);">
+          <i class="ri-heart-pulse-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Behance"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Mobile UI</div>
+          <h3 class="project-title">Health & Wellness App</h3>
+          <p class="project-desc">Minimalist health tracking app with personalized dashboards, habit tracking, and smooth micro-interactions.</p>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card" data-category="branding">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#2a1200,#3d1f00);">
+          <i class="ri-pen-nib-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="View on Behance"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Brand Identity</div>
+          <h3 class="project-title">TerraRoot Coffee Brand</h3>
+          <p class="project-desc">Complete brand identity system including logo, packaging design, brand guidelines, and environmental graphics.</p>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card" data-category="animation">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a0a2e,#2e1a4a);">
+          <i class="ri-magic-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Watch"><i class="ri-play-circle-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Animation</div>
+          <h3 class="project-title">SaaS Explainer Video</h3>
+          <p class="project-desc">Animated explainer video for a B2B SaaS platform with character animation, data visualization, and motion typography.</p>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card" data-category="web">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#001a2e,#00294a);">
+          <i class="ri-global-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Live Site"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Web Design</div>
+          <h3 class="project-title">Luxury Real Estate Website</h3>
+          <p class="project-desc">Premium real estate platform with immersive property showcases, virtual tours integration, and elegant UI.</p>
+        </div>
+      </div>
+
+      <!-- Project 7 -->
+      <div class="project-card" data-category="ui">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a0d00,#2e1a00);">
+          <i class="ri-store-2-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Case Study"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">UI/UX Design</div>
+          <h3 class="project-title">E-Commerce Platform Redesign</h3>
+          <p class="project-desc">Complete UX overhaul of a fashion e-commerce platform resulting in 40% improvement in conversion rate.</p>
+        </div>
+      </div>
+
+      <!-- Project 8 -->
+      <div class="project-card" data-category="video">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0d1a2e,#1a2d4a);">
+          <i class="ri-vidicon-2-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Watch"><i class="ri-play-circle-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Video Editing</div>
+          <h3 class="project-title">Documentary Short — Architects</h3>
+          <p class="project-desc">15-minute documentary exploring contemporary architecture in South Asia. Color graded in DaVinci Resolve.</p>
+        </div>
+      </div>
+
+      <!-- Project 9 -->
+      <div class="project-card" data-category="branding">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#002a1a,#003d26);">
+          <i class="ri-seedling-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Dribbble"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Brand Identity</div>
+          <h3 class="project-title">GreenLeaf Sustainability Brand</h3>
+          <p class="project-desc">Eco-conscious brand identity for an environmental consultancy, with nature-inspired visuals and sustainable packaging.</p>
+        </div>
+      </div>
+
+      <!-- Project 10 -->
+      <div class="project-card" data-category="animation">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a001a,#2e002e);">
+          <i class="ri-pulse-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Watch"><i class="ri-play-circle-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">UI Animation</div>
+          <h3 class="project-title">App Onboarding Flow Animation</h3>
+          <p class="project-desc">Delightful onboarding animation sequence for a meditation app with Lottie-based micro-interactions.</p>
+        </div>
+      </div>
+
+      <!-- Project 11 -->
+      <div class="project-card" data-category="web">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#002040,#00305e);">
+          <i class="ri-code-s-slash-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Live Site"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Web Design</div>
+          <h3 class="project-title">SaaS Marketing Landing Page</h3>
+          <p class="project-desc">High-converting SaaS landing page with interactive demos, pricing tables, and animated UI components.</p>
+        </div>
+      </div>
+
+      <!-- Project 12 -->
+      <div class="project-card" data-category="ui">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a00,#2e2e00);">
+          <i class="ri-book-open-line" style="color:rgba(20,184,166,0.4);"></i>
+          <div class="project-overlay">
+            <a href="#" title="View Project"><i class="ri-eye-line"></i></a>
+            <a href="#" title="Case Study"><i class="ri-external-link-line"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-cat">Mobile UI</div>
+          <h3 class="project-title">EdTech Learning Platform</h3>
+          <p class="project-desc">Engaging educational platform for K-12 students with gamification, progress tracking, and instructor dashboards.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Load More -->
+    <div class="text-center" style="margin-top:56px;">
+      <button class="btn btn-ghost" id="loadMore">
+        <i class="ri-add-line"></i> Load More Projects
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="padding:80px 0; background:linear-gradient(135deg,rgba(20,184,166,0.08) 0%,rgba(14,165,233,0.06) 100%); border-top:1px solid var(--border);">
+  <div class="container text-center reveal">
+    <span class="section-label">Let's Work Together</span>
+    <h2 class="section-title">Have a project <span class="teal">in mind</span>?</h2>
+    <p class="section-subtitle center">Let's collaborate and create something extraordinary together.</p>
+    <a href="contact.html" class="btn btn-primary"><i class="ri-send-plane-line"></i> Start a Project</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">Raja<span>.</span></a>
+        <p>Creative UI/UX Designer, Video Editor and Animator crafting beautiful digital experiences.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link"><i class="ri-behance-fill"></i></a>
+          <a href="#" class="social-link"><i class="ri-dribbble-fill"></i></a>
+          <a href="#" class="social-link"><i class="ri-linkedin-fill"></i></a>
+          <a href="#" class="social-link"><i class="ri-instagram-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="resume.html">Resume</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html">UI/UX Design</a></li><li><a href="services.html">Video Editing</a></li><li><a href="services.html">Animation</a></li><li><a href="services.html">Branding</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:ch.Loraintipsam@gmail.com"><i class="ri-mail-line"></i> ch.Loraintipsam@gmail.com</a></li><li><a href="tel:+92123456"><i class="ri-phone-line"></i> +92 123 456</a></li><li><a href="#"><i class="ri-map-pin-line"></i> Rawalpindi, Pakistan</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 <span>Raja Mudassir</span>. All Rights Reserved.</p>
+      <p>Designed &amp; Developed by <span>Raja Mudassir</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  // Load More button shimmer effect
+  document.getElementById('loadMore')?.addEventListener('click', function() {
+    this.innerHTML = '<i class="ri-loader-4-line"></i> Loading...';
+    setTimeout(() => {
+      this.innerHTML = '<i class="ri-check-line"></i> All Projects Loaded';
+      this.disabled = true;
+      this.style.opacity = '0.5';
+    }, 1200);
+  });
+</script>
+</body>
+</html>
